@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 #content { 
     max-width: 1600px;
 }
 #icon{
     max-width: 80px;
+    padding-top: 10px;
 }
 
 #logo{
     max-width: 80px;
+    font-size: 2em;
+    padding-top: 5px;
 }
 body{
     max-width: 300px;
+    
+}
+h2{
+    margin: 0;
 }
 nav a{
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,9 +33,14 @@ nav a{
 }
 main section{
     text-align: center;
+    box-sizing: border-box;
 }
 body{
     background-color: white ;
+    font-family:'Franklin Gothic Medium';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #e7c24f;;
@@ -38,19 +54,33 @@ nav a{
 .book, .join{
     background-color: white;
     text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: yellow;
+    padding: 15px 30px;
 }
 #background{
     background-color: grey;
 }
 .msg{
     background-color: pink;
+    list-style: 1.5em;
+    padding: 35px;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+.msg p{
+    padding-bottom: 15px;
 }
 footer{
     background-color: grey;
+    padding: 25px 50px;
 }
 footer a{
     text-decoration: none;
+    margin-top: 200px;
 }
+
